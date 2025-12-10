@@ -10,7 +10,7 @@
 /* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #0066ff;
     padding: 20px;
     line-height: 1.6;
 }
@@ -19,7 +19,7 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgb(190, 250, 213);
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -54,11 +54,12 @@ label {
     color: #34495e;
     font-weight: bold;
     font-size: 14px;
+    
 }
 
 /* Required field indicator */
 .required {
-    color: #e74c3c;
+    color: #ff0000;
 }
 
 /* Input and textarea styling */
@@ -153,6 +154,6 @@ input[type="checkbox"] {
 /* Helper text styling */
 .helper-text {
     font-size: 12px;
-    color: #95a5a6;
-    margin-top: 5px;
+    color: #2600ff;
+    margin: 5px;
 }

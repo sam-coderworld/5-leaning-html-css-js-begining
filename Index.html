@@ -36,6 +36,22 @@
                 >
                 <div class="error-message" id="nameError">Please enter your name</div>
             </div>
+            
+            <div class="form-group">
+                <label for="date">
+                    birt day <span class="required"></span>
+                </label>
+                <input 
+                    type="date" 
+                    id="date" 
+                    name="date" 
+    
+                    
+                >
+                <div class="error-message" id="nameError">Please enter your name</div>
+            </div>
+
+
 
             <!-- Email field -->
             <div class="form-group">
@@ -47,12 +63,12 @@
                     id="email" 
                     name="email" 
                     placeholder="your.email@example.com"
-                    required
+                    
                 >
                 <div class="error-message" id="emailError">Please enter a valid email</div>
             </div>
 
-            <!-- Phone field -->
+            <!-- Phone field 111111111-->
             <div class="form-group">
                 <label for="phone">Phone Number</label>
                 <input 
@@ -64,7 +80,7 @@
                 <p class="helper-text">Optional - We'll only call if necessary</p>
             </div>
 
-            <!-- Subject dropdown -->
+            <!-- Subject dropdown  111111 -->
             <div class="form-group">
                 <label for="subject">
                     Subject <span class="required">*</span>
@@ -75,25 +91,26 @@
                     <option value="support">Technical Support</option>
                     <option value="billing">Billing Question</option>
                     <option value="feedback">Feedback</option>
+                    <option value="opinion">opinion</option>
                 </select>
                 <div class="error-message" id="subjectError">Please select a subject</div>
             </div>
 
             <!-- Radio buttons for priority -->
             <div class="form-group">
-                <label>Priority Level <span class="required">*</span></label>
+                <label>gender <span class="required">*</span></label>
                 <div class="radio-group">
                     <div class="radio-option">
                         <input type="radio" id="low" name="priority" value="low" required>
-                        <label for="low">Low</label>
+                        <label for="low">male</label>
                     </div>
                     <div class="radio-option">
                         <input type="radio" id="medium" name="priority" value="medium" checked>
-                        <label for="medium">Medium</label>
+                        <label for="medium">female</label>
                     </div>
                     <div class="radio-option">
                         <input type="radio" id="high" name="priority" value="high">
-                        <label for="high">High</label>
+                        <label for="high">ohter</label>
                     </div>
                 </div>
             </div>
@@ -114,10 +131,14 @@
                         <input type="checkbox" id="smsContact" name="contactPref" value="sms">
                         <label for="smsContact">SMS</label>
                     </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="smsContact2" name="contactPref" value="sms">
+                        <label for="smsContact">11111</label>
+                    </div>
                 </div>
             </div>
 
-            <!-- Message textarea -->
+            <!-- Message textarea 111111  larger box-->
             <div class="form-group">
                 <label for="message">
                     Message <span class="required">*</span>
